@@ -90,6 +90,9 @@ public class BookBase {
 				}
 			}
 			break;
+		default:
+        // unknown type! 
+        // there should probably be some error-handling here, maybe an exception
 		}
 	}
 }
